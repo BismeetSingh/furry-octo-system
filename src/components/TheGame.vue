@@ -121,7 +121,7 @@ export default {
     },
     /** @description Ends the game */
     endGame() {
-      this.currentMessage = 'Congrats, you won!';
+      this.currentMessage = ' you won!';
       this.gameOver = true;
       this.gameActive = false;
     },
